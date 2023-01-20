@@ -1,0 +1,65 @@
+# Title: Software framework for the processing and statistical analysis of multivariate MS-data
+# Owner: Laboratory of Integrative Metabolomics (LIMET), Ghent university
+# Creator: Dr. Marilyn De Graeve
+# Maintainer: <limet@ugent.be>
+# Script: ErrorLog
+
+
+##########Frequently got errors##########
+#### MAIN ####
+Error in setwd(path_R_scripts) : cannot change working directory
+= forget to change path of computer, or typing error in folder "R_scripts" (eg. Rscripts)
+
+Error in setwd(path_data_in) : cannot change working directory
+= path is correct, problem: projectname wrong (eg written with space), non-existent folder to input (development after source config w wrong name)
+
+Error : cannot allocate vector of size 7.8 Mb
+or 
+killed during process 
+= not enough RAM for R pipeline to compute (probably step annotate from part pre-processing Thermo), increase RAM of Rbox if possible
+
+Not engough space
+= hard drive is full, free up space for calculating
+
+Error in file(file, ifelse(append, "a", "w")) : cannot open the connection
+= close excel, close other files opened, check path in main.r correct 
+
+Error in file(filename, "r", encoding = encoding): cannot open the connection
+Calls: source -> file
+In addition: Warning message: In file (filename, "r", encoding = encoding): cannot open file 'configuration.R': No such file or directory
+Execution halted
+= configuration.r.r extension is wrong, check configuration.r instead of twice suffix .r
+
+(process:5453): Pango-WARNING **: Invalid UTF-8 string passed to pango_layout_set_text()
+= created/exported txt can be in wrong format (incorrect UTF-8), copy/paste from txt to txt to solve.
+
+
+####PART 2: Validation statistics####
+Error in file(file, "rt") : cannot open the connection
+Calls: source ... eval -> load_variableMetadata -> read.table -> file
+= config checks if pipeline/extern correct, typo's config vs files.
+
+Error in pca(scalednormalizedsamples_matrix_comp_no0, nPcs = nPCsopt,  : 
+  Invalid data format.Run checkData(data, verbose=TRUE) for details
+Calls: source -> withVisible -> eval -> eval -> pca
+= NA values present in your dataset after log+pareto scaling (eg. VM contains compID's with all same value -> SD(x) -> error devide by zero -> NA)
+
+Error in apply(mat, 1, function(x) all(is.na(x))) : 
+  dim(X) must have a positive length
+In addition: Warning message:
+In pca(sm_group[, COLLUMN_NR_START_VARIABLES:length(sm_group)],  :
+  more components than matrix rows requested
+= if only 1 sample in group, PCs calculated for (n-1) components. So error in PCA since 1-1=0
+
+Error in if (max(abs(shape - t(shape)))/max(abs(shape)) > 1e-10) stop("shape must be a symmetric matrix") : 
+  missing value where TRUE/FALSE needed
+Calls: source ... eval -> Hotellingellipse -> as.data.frame -> ellipse
+= issue calculating Hotelling ellipse because too little amount of samples. min 4 samples needed
+
+Error: Data contains rows in which all elements are 'NA'. Remove them first
+Error in pca(sm_group[, COLLUMN_NR_START_VARIABLES:length(sm_group)],  : 
+  Invalid data format.Run checkData(data, verbose=TRUE) for details
+= NAs present in projection1, this is allowed so error should not be seen anymore
+ 
+#
+####################

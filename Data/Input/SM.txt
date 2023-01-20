@@ -1,0 +1,30 @@
+SampleName	name	info1	info2	info3	info4	Batch	Order	Type	Omics	IonisationMode	Comparison1	MultipleComparison1	MultipleComparison2	MultipleComparison3	Projection1	Projection2	Projection3	Projection4
+200825_001_scan049_I	IQC1					1	1	IQC	Metabolomics	-					6			
+200825_002_scan034_I	IQC2					1	2	IQC	Metabolomics	-					6			
+200825_003_scan011_I	REIMS20-ICE-001	Hadd-01	Haddock	Melanogrammus aeglefinus	Neck	1	3	Sample	Metabolomics	-		4	4		4		4	4
+200825_004_scan015_I	REIMS20-ICE-002	Hadd-01	Haddock	Melanogrammus aeglefinus	Mid	1	4	Sample	Metabolomics	-		4	4		4		4	4
+200825_005_scan017_I	REIMS20-ICE-003	Hadd-01	Haddock	Melanogrammus aeglefinus	Tail	1	5	Sample	Metabolomics	-		4	4		4		4	4
+200825_006_scan021_I	REIMS20-ICE-004	Hadd-02	Haddock	Melanogrammus aeglefinus	Neck	1	6	Sample	Metabolomics	-		4	4		4		4	4
+200825_007_scan021_I	REIMS20-ICE-005	Hadd-02	Haddock	Melanogrammus aeglefinus	Mid	1	7	Sample	Metabolomics	-		4	4		4		4	4
+200825_008_scan025_I	REIMS20-ICE-006	Hadd-02	Haddock	Melanogrammus aeglefinus	Tail	1	8	Sample	Metabolomics	-		4	4		4		4	4
+200825_009_scan020_I	REIMS20-ICE-007	Hadd-03	Haddock	Melanogrammus aeglefinus	Neck	1	9	Sample	Metabolomics	-		4	4		4		4	4
+200825_010_scan016_I	REIMS20-ICE-008	Hadd-03	Haddock	Melanogrammus aeglefinus	Mid	1	10	Sample	Metabolomics	-		4	4		4		4	4
+200825_011_scan020_I	REIMS20-ICE-009	Hadd-03	Haddock	Melanogrammus aeglefinus	Tail	1	11	Sample	Metabolomics	-		4	4		4		4	4
+200825_012_scan017_I	REIMS20-ICE-010	Hadd-04	Haddock	Melanogrammus aeglefinus	Neck	1	12	Sample	Metabolomics	-		4	4		4		4	4
+200825_013_scan013_I	REIMS20-ICE-011	Hadd-04	Haddock	Melanogrammus aeglefinus	Mid	1	13	Sample	Metabolomics	-		4	4		4		4	4
+200825_014_scan019_I	REIMS20-ICE-012	Hadd-04	Haddock	Melanogrammus aeglefinus	Tail	1	14	Sample	Metabolomics	-		4	4		4		4	4
+200825_015_scan017_I	REIMS20-ICE-013	Hadd-05	Haddock	Melanogrammus aeglefinus	Neck	1	15	Sample	Metabolomics	-		4	4		4		4	4
+200825_016_scan015_I	REIMS20-ICE-014	Hadd-05	Haddock	Melanogrammus aeglefinus	Mid	1	16	Sample	Metabolomics	-		4	4		4		4	4
+200825_017_scan015_I	REIMS20-ICE-015	Hadd-05	Haddock	Melanogrammus aeglefinus	Tail	1	17	Sample	Metabolomics	-		4	4		4		4	4
+200825_018_scan018_I	REIMS20-ICE-016	Ling-01	Common Ling	Molva molva	Neck	1	18	Sample	Metabolomics	-		1	1		1		1	1
+200825_019_scan022_I	REIMS20-ICE-017	Ling-01	Common Ling	Molva molva	Mid	1	19	Sample	Metabolomics	-		1	1		1		1	1
+200825_020_scan020_I	REIMS20-ICE-018	Ling-01	Common Ling	Molva molva	Tail	1	20	Sample	Metabolomics	-		1	1		1		1	1
+200825_021_scan013_I	REIMS20-ICE-019	Ling-02	Common Ling	Molva molva	Neck	1	21	Sample	Metabolomics	-		1	1		1		1	1
+200825_022_scan014_I	REIMS20-ICE-020	Ling-02	Common Ling	Molva molva	Mid	1	22	Sample	Metabolomics	-		1	1		1		1	1
+200825_023_scan021_I	REIMS20-ICE-021	Ling-02	Common Ling	Molva molva	Tail	1	23	Sample	Metabolomics	-		1	1		1		1	1
+200825_024_scan013_I	REIMS20-ICE-022	Ling-03	Common Ling	Molva molva	Neck	1	24	Sample	Metabolomics	-		1	1		1		1	1
+200825_025_scan014_I	REIMS20-ICE-023	Ling-03	Common Ling	Molva molva	Mid	1	25	Sample	Metabolomics	-		1	1		1		1	1
+200825_026_scan011_I	REIMS20-ICE-024	Ling-03	Common Ling	Molva molva	Tail	1	26	Sample	Metabolomics	-		1	1		1		1	1
+200825_027_scan013_I	REIMS20-ICE-025	Ling-04	Common Ling	Molva molva	Neck	1	27	Sample	Metabolomics	-		1	1		1		1	1
+200825_028_scan019_I	IQC3					1	28	IQC	Metabolomics	-					6			
+200825_029_scan019_I	IQC4					1	29	IQC	Metabolomics	-					6			

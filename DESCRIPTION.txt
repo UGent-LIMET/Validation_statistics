@@ -1,0 +1,21 @@
+# Title: Software framework for the processing and statistical analysis of multivariate MS-data
+# Owner: Laboratory of Integrative Metabolomics (LIMET), Ghent university
+# Creator: Dr. Marilyn De Graeve
+# Maintainer: <limet@ugent.be>
+# Script: Validation_statistics
+
+# Description: Performs validation statistics to assess the quality of the run metabolomics samples. Only samples in Projection 1 are analyzed together and per individual group. At least 6 replicates are required per group to perform reliable validation statistics.
+# Input: 
+# -	Configuration.R
+# -	VariableMetadata.txt
+# -	SampleMetadata.txt
+# Output: 
+# -	1Setup.txt
+# -	3-1Numberoffeatures.txt
+# -	3-2TICsignal.txt and 3-2TICsignal_per_sample.png
+# -	3-3PCA_scoreplot 1ALL and one 3-3PCA_scoreplot per group
+# -	3-3OutliersPCA.txt
+# -	3-4Featurerepeatability_raw.txt and one 3-4Featurerepeatability_raw histogram table + plot per group
+# -	3-4Featurerepeatability_tic.txt and one 3-4Featurerepeatability_tic histogram table + plot per group
+# Report:
+# - Report_validation_statistics.html
