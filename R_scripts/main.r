@@ -17,7 +17,7 @@ CODE_DEVELOPMENT <- 'run code manually in Rstudio for development locally'
 ## Adjustments
 PATH <- PATH_USER
 
-CODE_RUN_MODE <- CODE_DEVELOPMENT
+CODE_RUN_MODE <- CODE_AUTORUN
 
 #
 #####################
