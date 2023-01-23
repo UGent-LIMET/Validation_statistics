@@ -60,6 +60,21 @@ Error: Data contains rows in which all elements are 'NA'. Remove them first
 Error in pca(sm_group[, COLLUMN_NR_START_VARIABLES:length(sm_group)],  : 
   Invalid data format.Run checkData(data, verbose=TRUE) for details
 = NAs present in projection1, this is allowed so error should not be seen anymore
- 
+
+
+####PART 4: Report_validation_statistics####
+Quitting from lines 49-61 (Report_validation_statistics.Rmd) 
+Error in scan(file = file, what = what, sep = sep, quote = quote, dec = dec,  : 
+  line 2 did not have 3 elements
+= open 1_setup.txt, see if ')' on new line is present, if so: remove enter so that one group info per line in txt 
+= if you don't find the 1_setup.txt: run the validation module first (config RUN_PART_VALIDATION <- RUN_CODE)
+
+Quitting from lines 225-236 (ReportRMarkdown.Rmd) 
+Error in file(file, "rt") : cannot open the connection
+= in config; is correct module selected (run part validation) to make report
+
+Error in readRDS(ffile) : error reading from connection
+= package incorrectly installed on computer
+
 #
 ####################
